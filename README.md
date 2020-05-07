@@ -34,5 +34,5 @@
 ### And much more!!
 ---
 ## NB_Viewer
-## For analysis and insights click <a href="https://nbviewer.jupyter.org/github/anurag-ux/2019-general-election/blob/master/Analysis.ipynb">here</a>
-## For model prediction click  <a href="https://nbviewer.jupyter.org/github/anurag-ux/2019-general-election/blob/master/prediction_model.ipynb">here</a>
+### For analysis and insights click <a href="https://github.com/anurag-ux/2019-general-election/blob/master/Analysis.ipynb">here</a>
+### For model prediction click  <a href="https://nbviewer.jupyter.org/github/anurag-ux/2019-general-election/blob/master/prediction_model.ipynb">here</a>
