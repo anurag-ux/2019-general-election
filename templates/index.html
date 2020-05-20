@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>General Election Winner Prediction</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+	<h1>Hello There!</h1>
+	<p>We are trying to predict if a candidate wins the elections based on some features.</p>
+	<br>
+	<div class="query">
+		<form method="post">
+			<label for="gender">Gender of candidate: </label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br><br>
+			<label for="party">Which party does the candidate belong to? </label>
+			<select id="party" name="Party">
+				<option value="male">BJP</option>
+				<option value="female">Congress</option>
+				<option value="female">IND</option>
+				<option value="female">BSP</option>
+				<option value="female">CPI(M)</option>
+				<option value="female">VBA</option>
+				<option value="female">AITC</option>
+				<option value="female">SP</option>
+				<option value="female">NTK</option>
+				<option value="female">MNM</option>
+				<option value="female">SHS</option>
+				<option value="female">YSRCP</option>
+				<option value="female">AAP</option>
+				<option value="female">TDP</option>
+				<option value="female">DMK</option>
+				<option value="female">BJD</option>
+				<option value="female">RJD</option>
+				<option value="female">AIADMK</option>
+				<option value="female">NCP</option>
+				<option value="female">JnP</option>
+				<option value="female">JD(U)</option>
+				<option value="female">TRS</option>
+				<option value="female">Others</option>
+			</select>
+			<br><br>
+			<label for="criminal">Number of Criminal Cases of candidate: </label>
+			<input type="range" id="criminal" name="criminal_cases" min="0" max="240" required="required" value="0">
+			<br><br>
+			<label for="age">Age of candidate between 25 and 100: </label>
+			<input type="text" name="AGE" id="age" minlength="2" required="required" maxlength="2">
+			<br><br>
+			<label for="category">Category candidate belongs to: </label>
+			<select id="category">
+				<option value="general">General</option>
+				<option value="sc">SC</option>
+				<option value="st">ST</option>
+				<option value="obc">OBC</option>
+			</select>
+			<br><br>
+			<label for="education">What is the education level of the candidate? </label>
+			<select id="education">
+				<option value="pg">Post Graduate</option>
+				<option value="grad">Graduate</option>
+				<option value="gp">Graduate Professional</option>
+				<option value="tp">12th Pass</option>
+				<option value="tenp">10th Pass</option>
+				<option value="ill">Illiterate</option>
+				<option value="ep">8th Pass</option>
+				<option value="doc">Doctorate</option>
+				<option value="lit">Literate</option>
+				<option value="fp">5th Pass</option>
+			</select>
+			<br><br>
+			<label for="assets">Enter the total assets of candidate: </label>
+			<input type="text" name="assets" required="required" id="assets">
+			<br><br>
+			<label for="liablities">Enter the total liabilities of candidate: </label>
+			<input type="text" name="assets" id="liablities" required="required">
+			<br><br>
+			<label for="voters">How many people are eligible voters in the constituency? </label>
+			<input required="required" type="text" name="assets" id="voters">
+			<br><br>
+			<input type="submit" name="submit">
+		</form>
+		{{prediction_text}}
+	</div>
+</body>
+</html>
