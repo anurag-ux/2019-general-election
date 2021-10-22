@@ -1,5 +1,5 @@
 # 2019 Indian general-election Exploratory Data Analysis and winner prediction
-<a href="https://ichef.bbci.co.uk"><img src="https://www.aljazeera.com/wp-content/uploads/2019/04/05e4ac0e32c94b33a8dd1208e0d79146_18.jpeg" alt="FVCproductions"></a>
+<a href="https://ichef.bbci.co.uk"><img src="https://www.aljazeera.com/wp-content/uploads/2019/04/05e4ac0e32c94b33a8dd1208e0d79146_18.jpeg?resize=770%2C513" alt="FVCproductions"></a>
 ---
 ## Analysis of candidates in 2019 General Election in the Republic of India.
 ## Prediction of a candidate winning the election based on his/her features using Logistic Regression Classification.
